@@ -51,6 +51,60 @@ a {
   color: inherit;
 }
 
-h1, h2, h3, a {
+h1, h2, h3, a, span {
   color: var(--gray-100);
+}
+
+.title-lg {
+  font-family: "Asap", sans-serif;
+  font-weight: 800;
+  line-height: 120%;
+  font-size: 56px;
+}
+
+.title-md {
+  font-family: "Asap", sans-serif;
+  font-weight: 800;
+  line-height: 120%;
+  font-size: 24px;
+}
+
+.title-sm {
+  font-family: "Asap", sans-serif;
+  font-weight: 800;
+  line-height: 120%;
+  font-size: 16px;
+}
+
+.subtitle {
+  font-family: "Inconsolata", sans-serif;
+  font-weight: 400;
+  line-height: 120%;
+  font-size: 20px;
+}
+
+.text-md {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 16px;
+}
+
+.text-sm {
+  font-family: "Maven Pro", sans-serif;
+  font-weight: 400;
+  line-height: 140%;
+  font-size: 14px;
+}
+
+strong {
+  font-weight: 400;
+  color: var(--red);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
