@@ -74,31 +74,33 @@
   border-radius: 999px;
   background: var(--gray-400);
   border: 1px solid transparent;
-  transition: border 0.2s, transform 0.2s;
+  transition:
+    border 0.2s,
+    transform 0.2s;
 }
 
 .tag:nth-child(1):hover {
-  border-color: var(--gray-300)
+  border-color: var(--gray-300);
 }
 
 .tag:nth-child(2):hover {
-  border-color: var(--orange)
+  border-color: var(--orange);
 }
 
 .tag:nth-child(3):hover {
-  border-color: var(--blue)
+  border-color: var(--blue);
 }
 
 .tag:nth-child(4):hover {
-  border-color: var(--yellow)
+  border-color: var(--yellow);
 }
 
 .tag:nth-child(5):hover {
-  border-color: var(--blue)
+  border-color: var(--blue);
 }
 
 .tag:nth-child(6):hover {
-  border-color: var(--green)
+  border-color: var(--green);
 }
 
 .tag img {
