@@ -2,7 +2,7 @@
   padding: 0px 120px 144px 120px;
 }
 
-#projectsheader {
+.projects__header {
   display: flex;
   flex-direction: column;
   gap: 8px;
@@ -10,7 +10,7 @@
   margin-bottom: 56px;
 }
 
-#grid {
+.projects__grid {
   max-width: 1040px;
   margin: 0 auto;
   display: grid;
@@ -18,7 +18,7 @@
   gap: 24px;
 }
 
-.card {
+.project-card {
   background: var(--gray-400);
   border-radius: 12px;
   padding: 12px;
@@ -31,16 +31,16 @@
     transform 0.2s;
 }
 
-.card:hover {
+.project-card:hover {
   border-color: var(--gray-300);
 }
 
-.card img {
+.project-card img {
   width: 100%;
   border-radius: 8px;
 }
 
-.card figcaption {
+.project-card figcaption {
   display: flex;
   flex-direction: column;
   gap: 8px;

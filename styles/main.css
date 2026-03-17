@@ -10,7 +10,7 @@
   align-items: center;
 }
 
-#info {
+.intro__content {
   width: 1040px;
   display: flex;
   flex-direction: column;
@@ -19,7 +19,7 @@
   text-align: center;
 }
 
-#introheader {
+.intro__header {
   width: 680px;
   height: 327px;
   display: flex;
@@ -28,13 +28,13 @@
   gap: 56px;
 }
 
-#avatar {
+.intro__avatar {
   position: relative;
   width: fit-content;
 }
 
 /* Foto de perfil */
-#avatar img:nth-child(2) {
+.intro__avatar img:nth-child(2) {
   width: 96px;
   height: auto;
   border-radius: 50%;
@@ -43,30 +43,30 @@
 }
 
 /* Code Badge */
-#avatar img:nth-of-type(1) {
+.intro__avatar img:nth-of-type(1) {
   position: absolute;
   bottom: 0;
   right: 0;
 }
 
-#text {
+.intro__text {
   display: flex;
   flex-direction: column;
   gap: 20px;
 }
 
-#title {
+.intro__title {
   gap: 8px;
 }
 
-#tags {
+.intro__tags {
   display: flex;
   gap: 12px;
   margin-top: 32px;
   max-width: 754px;
 }
 
-.tag {
+.skill-pill {
   display: flex;
   align-items: center;
   gap: 8px;
@@ -79,40 +79,40 @@
     transform 0.2s;
 }
 
-.tag:nth-child(1):hover {
+.skill-pill:nth-child(1):hover {
   border-color: var(--gray-300);
 }
 
-.tag:nth-child(2):hover {
+.skill-pill:nth-child(2):hover {
   border-color: var(--red);
 }
 
-.tag:nth-child(3):hover {
+.skill-pill:nth-child(3):hover {
   border-color: var(--blue);
 }
 
-.tag:nth-child(4):hover {
+.skill-pill:nth-child(4):hover {
   border-color: var(--yellow);
 }
 
-.tag:nth-child(5):hover {
+.skill-pill:nth-child(5):hover {
   border-color: var(--blue);
 }
 
-.tag:nth-child(6):hover {
+.skill-pill:nth-child(6):hover {
   border-color: var(--green);
 }
 
-.tag img {
+.skill-pill img {
   width: 24px;
   height: 24px;
 }
 
-.tag span {
+.skill-pill span {
   font-size: 14px;
   color: var(--gray-200);
 }
 
-#caret-double-down {
+.intro__scroll-indicator {
   margin-top: 94px;
 }
